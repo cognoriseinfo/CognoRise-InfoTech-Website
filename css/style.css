@@ -639,7 +639,7 @@ nav {
   color: #ffffff;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .mobile-nav {
     display: none;
   }
