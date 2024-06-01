@@ -59,7 +59,7 @@ function openLink() {
   window.open(linkUrl, "_blank");
 }
 function openLinkH() {
-  let linkUrl = "https://forms.gle/njqBCJyDa5cPd9A3A";
+  let linkUrl = "https://forms.gle/hvz5mwyiQV8hDYrB6";
 
   window.open(linkUrl, "_blank");
 }
@@ -98,7 +98,7 @@ function show() {
   document.querySelector(".navigation").classList.toggle("active");
 }
 
-var currentDownDate = new Date("May 29, 2024 00:00:00").getTime();
+var currentDownDate = new Date("June 28, 2024 00:00:00").getTime();
 
 var x = setInterval(() => {
   var now = new Date().getTime();
