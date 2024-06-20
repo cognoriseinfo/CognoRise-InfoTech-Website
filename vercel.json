@@ -9,12 +9,8 @@
     "routes": [
       { "handle": "filesystem" },
       {
-        "src": "/api/(.*)",
-        "dest": "/api/$1.py"
-      },
-      {
         "src": "/(.*)",
-        "dest": "/index.html"
+        "dest": "api/app.py"
       }
     ]
   }
