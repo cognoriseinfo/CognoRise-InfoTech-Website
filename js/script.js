@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const authenticated = authentication(username, password);
 
     if (authenticated) {
-      window.location.href = "dashboard.html";
+      window.location.href = "templates/course.html";
     } else {
       alert("wrong");
     }

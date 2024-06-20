@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="css/hackathon.css" />
+    <link rel="shortcut icon" type="company-icon" href="images/favicon.png" />
+    <script src="js/script.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="hide">
+      <div class="nav-logo">
+        <a href="#"
+          ><img src="images/cognoRise-removebg.png" aria-details=""
+        /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#registration">Registration</a></li>
+        <li class="link"><a href="#rules">Rules</a></li>
+        <li class="link"><a href="#contactus">Contact Us</a></li>
+      </ul>
+      <button class="btn" onclick="openLinkH()">Register Now</button>
+      <button class="hamburger"><div class="bar"></div></button>
+    </nav>
+    <nav class="mobile-nav">
+      <a href="#" class="top nav-link">Home</a>
+      <a href="#registration" class="top nav-link">Registration</a>
+      <a href="#rules" class="top nav-link">Rules</a>
+      <a href="#contactus" class="top nav-link">Contact Us</a>
+    </nav>
+
+    <div class="section-container">
+      <div class="clock">
+        <span id="days">00</span>
+        <span>:</span>
+        <span id="hrs">00</span>
+        <span>:</span>
+        <span id="mins">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+      </div>
+    </div>
+
+    <section class="section-container welcome-container">
+      <div class="class-container">
+        <div>
+          <span class="bg-blur"></span>
+          <span class="bg-blur footer-blur"></span>
+          <h1 class="section-header">Web Development Hackathon</h1>
+          <p>
+            We thank you for showing interest in participating in the 2024
+            CognoRise InfoTech
+            <span class="bold">Web Development Hackathon - June edition</span>.
+            This consists of only 1 Round. Whether you're a seasoned developer
+            or just starting out, this hackathon is a great opportunity to build
+            something cool, meet like-minded individuals, and have fun!
+          </p>
+        </div>
+        <img src="images/webdevhack.png" />
+      </div>
+    </section>
+
+    <section class="section-container" id="registration">
+      <span class="bg-blur"></span>
+      <div>
+        <div class="register-container">
+          <img src="images/form.avif" alt="register-image" />
+          <div>
+            <h1 class="section-header">Registration</h1>
+            <p>
+              The participants are requested to fill the form,the form will let
+              us know if you are interested in participating in our hackathon.
+              After you fill the form, we will send you an email where you will
+              receive further instructions. Please go through all the rules
+              before you fill the form
+            </p>
+            <button class="btn" onclick="openLinkH()">Register</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container" id="rules">
+      <div class="card">
+        <h1 class="f-size-1">Rules</h1>
+        <ul>
+          <li>For this hackathon, you have to build a website for a gym</li>
+          <li>
+            Registration form ,Packages, Timings, Offers ,Gym Gears, Nutrition &
+            supplements
+          </li>
+          <li>You can use any technology stack to build the website</li>
+          <li>We will roll out the submission form later.</li>
+          <li>
+            <span class="bold">
+              Do not copy code/solution from other students or online
+              repositories.
+            </span>
+          </li>
+          <li>This is an Individual Event.</li>
+          <li>
+            The submission date is from
+            <span class="bold">20/06/2024 - 28/06/2024</span>
+          </li>
+          <li>
+            We will declare the results of the winners at the end of this month.
+          </li>
+          <li>
+            All the participants will receive certificates, and the winners will
+            get <span class="bold">cash prizes worth upto Rs 4000 !!</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-container">
+      <div class="card-1">
+        <h1 class="f-size-1">Eligibility Criteria</h1>
+        <ul>
+          <li>
+            People who are pursuing their degree in college or passed out can
+            appear in this hackathon.
+          </li>
+          <li>
+            You need to have a whatsapp number and a proper email for
+            communication.
+          </li>
+          <li>
+            You need to pay an <span class="bold">Entry Fee of 50 INR</span> to
+            participate in this hackathon.
+          </li>
+        </ul>
+        <span class="bg-blur"></span>
+      </div>
+    </section>
+
+    <section class="section-container quote-container">
+      <div class="quote-card">
+        <i class="fa fa-quote-right"></i>
+        <div class="quote">
+          We hope you have fun participating in the hackathon!! All the very
+          best!!
+        </div>
+        <p class="author">~ CognoRise InfoTech Team</p>
+      </div>
+    </section>
+
+    <footer class="section-container footer-container" id="contactus">
+      <span class="bg-blur"></span>
+      <span class="bg-blur footer-blur"></span>
+      <div class="footer-col">
+        <div class="footer-logo">
+          <img src="images/cognoRise-removebg.png" alt="logo" />
+        </div>
+        <div class="footer-socials">
+          <a
+            href="https://www.linkedin.com/company/cognoriseinfotech/?viewAsMember=true"
+            target="_blank"
+            ><i class="ri-linkedin-fill"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/cognorise_infotech?igsh=MTkzcng3NTA0MXI1eQ=="
+            target="_blank"
+            ><i class="ri-instagram-line"></i
+          ></a>
+
+          <a href="https://www.youtube.com/@CognoRiseInfoTech" target="_blank"
+            ><i class="ri-youtube-line"></i
+          ></a>
+          <a href="https://t.me/CognoRise_InfoTech" target="_blank"
+            ><i class="ri-telegram-fill"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
