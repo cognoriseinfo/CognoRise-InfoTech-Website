@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CognoRise Courses</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='course.css') }}">
+    <link rel="stylesheet" href="static/course.css" />
   </head>
   <body>
     <section class="section-container">
       <div class="header-1">
         <div class="profile">
           <a href="#" class="link"><h1>Profile</h1></a>
-          <h2>Welcome, {{ username }}!</h2>
         </div>
         <div>
           <header class="header-2">
             <img
-              src="static/images/cognoRise-removebg.png"
+              src="images/cognoRise-removebg.png"
               width="260px"
               height="230px"
             />
@@ -28,19 +27,16 @@
             <div class="heading"><h2>My Courses</h2></div>
             <hr size="3" width="90%" color="#fe3838" />
             <div class="course">
-              <img src="static/images/ds-1.png" height="200px" width="230px" />
-             
+              <img src="images/ds-1.png" height="200px" width="230px" />
+
               <div id="message"></div>
               <div class="course-content">
-                <a href="{{ url_for('da') }}">Data Science</a>
+                <a href="course-da.html">Data Science</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-   
   </body>
 </html>

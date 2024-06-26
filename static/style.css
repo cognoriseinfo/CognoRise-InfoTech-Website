@@ -24,6 +24,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--white);
+  background-size: cover;
 }
 
 .section-container {
@@ -612,7 +613,7 @@ nav {
   width: 100%;
   min-height: 100vh;
   display: block;
-  z-index: 98;
+  z-index: 1;
   background-color: var(--white);
   transition: 0.5s;
   padding-top: 140px;

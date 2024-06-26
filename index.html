@@ -18,12 +18,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="company-icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="static/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <script src="static/script.js"></script>
+    <script src="static/js/script.js"></script>
     <title>CognoRise InfoTech</title>
   </head>
   <body>
@@ -42,9 +42,7 @@
         </li>
         <li class="link"><a href="#contactus">Contact Us</a></li>
         <li>
-          <a href="{{ url_for('login') }}" target="_blank"
-            ><button class="btn">Login</button></a
-          >
+          <a href="login.html"><button class="btn">Login</button></a>
         </li>
       </ul>
       <button class="hamburger"><div class="bar"></div></button>

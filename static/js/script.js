@@ -1,16 +1,3 @@
-// let wrapper = document.querySelector(".wrapper");
-// let loginLink = document.querySelector(".login-link");
-// let registerLink = document.querySelector(".register-link");
-
-// registerLink.addEventListener("click", () => {
-//   wrapper.classList.add("active");
-// });
-
-// loginLink.addEventListener("click", () => {
-//   wrapper.classList.remove("active");
-// });
-// const form = document.querySelector("form");
-
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("form");
 
@@ -23,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const authenticated = authentication(username, password);
 
     if (authenticated) {
-      window.location.href = "templates/course.html";
+      window.location.href = "course.html";
     } else {
       alert("wrong");
     }
@@ -32,23 +19,17 @@ document.addEventListener("DOMContentLoaded", () => {
 // function for checking username and password
 
 function authentication(username, password) {
-  if (username === "admin" && password === "password") {
+  if (username === "cognorise" && password === "Matrix@6969") {
     return true;
   } else {
     return false;
   }
 }
 document.addEventListener("DOMContentLoaded", () => {
-  let wrapper = document.querySelector(".wrapper");
-  let loginLink = document.querySelector(".login-link");
-  let registerLink = document.querySelector(".register-link");
+  const iconClose = document.querySelector(".icon-close");
 
-  registerLink.addEventListener("click", () => {
-    wrapper.classList.add("active");
-  });
-
-  loginLink.addEventListener("click", () => {
-    wrapper.classList.remove("active");
+  iconClose.addEventListener("click", () => {
+    window.location.href = "index.html";
   });
 });
 
