@@ -198,9 +198,9 @@ nav {
   z-index: -1;
 } */
 
-.header-image img {
-  max-width: 800px;
-  height: 320px;
+.header-image a img {
+  max-width: 450px;
+  height: 350px;
   margin: auto;
   border-radius: 18px;
 }
