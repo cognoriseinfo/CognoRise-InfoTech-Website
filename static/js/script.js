@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function openLink() {
   let linkUrl =
-    "https://docs.google.com/forms/d/1yvWchnI8idySqHCW6kn8n3F-pYxzqSj2AjOjjhTjMi4/edit";
+    "https://docs.google.com/forms/d/e/1FAIpQLSeIMPrgrbCFR_JO-jwsVRYm8owux_ZH01xP2jnK6d8A5OdlNA/viewform";
 
   window.open(linkUrl, "_blank");
 }
