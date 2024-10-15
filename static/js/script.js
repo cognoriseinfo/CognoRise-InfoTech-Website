@@ -40,8 +40,7 @@ function openLink() {
   window.open(linkUrl, "_blank");
 }
 function openLinkH() {
-  let linkUrl =
-    "https://docs.google.com/forms/d/e/1FAIpQLSegcVLwGosqedzFYXrmAjUkHcH3XUy8z3QJx7QXp1R3oEBhYQ/viewform";
+  let linkUrl = "https://forms.gle/XVcmJVNKGbmGxRzZ9";
 
   window.open(linkUrl, "_blank");
 }
@@ -80,7 +79,7 @@ function show() {
   document.querySelector(".navigation").classList.toggle("active");
 }
 
-var currentDownDate = new Date("september 28, 2024 00:00:00").getTime();
+var currentDownDate = new Date("October 25, 2024 00:00:00").getTime();
 
 var x = setInterval(() => {
   var now = new Date().getTime();
